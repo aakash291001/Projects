@@ -1,0 +1,44 @@
+*
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-family: 'Press Start 2P', cursive;
+            background-color: black;
+        }
+        header 
+        {
+            margin: 0px 400px;
+            display: flex;
+            justify-content: space-between;
+            color: rgb(60, 104, 17);
+            margin: 0px 325px;
+        }
+        #saanp
+        {
+            height: 130px;
+        }
+        header h1{
+            text-shadow: 4px 4px 10px rgb(235, 228, 235);
+            font-size: xxx-large;
+            margin: 40px 0px;
+        }
+        article
+        {
+            margin-top: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        #Canvas1
+        {
+            background-image: url("../../snake_game.png");
+        }
+        #Canvas1
+        {
+            border: 2px solid rgb(60, 94, 9);
+        }
