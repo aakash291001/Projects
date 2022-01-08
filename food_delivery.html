@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="food.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 966px)" href="phone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="LOGO">
+        </div>
+        <ul>
+            <li class="item" id="item1"><a href="#">Home</a></li>
+            <li class="item" id="item2"><a href="#">About Us</a></li>
+            <li class="item" id="item3"><a href="#">Contact Us</a></li>
+            <li class="item" id="item4"><a href="#">Offices </a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2 class="h-primary">
+            ZAP ONLINE FOOD SERVICES 
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus nisi odio nesciunt, quas nam provident aspernatur esse numquam in totam quasi nihil fuga impedit harum, recusandae labore vitae tempora.</p>
+        <form action="food.php">
+            <label for="fname">Name</label>
+            <input type="text" name="fname" id="">
+            <label for="fage">Age</label>
+            <input type="number" name="fage" id>
+            <label for="femail">E-mail address</label>
+            <input type="email" name="femail">
+            <label for="location">Location</label>
+            <select name="loction" id=""> 
+                <option value="" class="opt1" id="2">Mumbai</option>
+                <option value="" class="opt1" id="1" selected>Delhi</option>
+                <option value="" class="opt1" id="3">Uttar Pradesh</option>
+                <option value="" class="opt1" id="4">Kolkata</option>
+            </select>
+            <button class="btn" id="btn1">Submit</button>
+        </form>
+    </section>
+    <section class="services-center">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/burger.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat accusamus possimus veritatis? Nesciunt maxime cum error iste vero pariatur.</p>
+            </div>
+            <div class="box">
+                <img src="img/fried.png" alt="">
+                <h2 class="h-secondary center">Lunch Box</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat accusamus possimus veritatis? Nesciunt maxime cum error iste vero pariatur.</p>
+            </div>
+            <div class="box">
+                <img src="img/pizza2.png" alt="">
+                <h2 class="h-secondary center">Catering</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat accusamus possimus veritatis? Nesciunt maxime cum error iste vero pariatur.</p>
+            </div>
+        </div>
+    </section>
+    <section class="client-services">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-items">
+                <img src="img/logo1.jpg" alt="">
+                
+            </div>
+            <div class="client-items">
+                <img src="img/logo2.png" alt="" id="clogo2">
+               
+            </div>
+            <div class="client-items">
+                <img src="img/logo3.png" alt="">
+                
+            </div>
+            <div class="client-items">
+                <img src="img/logo4.png" alt="">
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>

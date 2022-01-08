@@ -1,0 +1,188 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Grenze Gotisch', cursive;
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: darkslategray;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+/* Logo and Image*/
+.logo img
+{
+    margin: 0px -10px;
+    width: 200px;
+    height: 150px;
+}
+/* Navbar and list styling*/
+#navbar
+{
+    position: relative;
+}
+#navbar ul
+{
+    display: flex;
+}
+#navbar ul li
+{
+    list-style: none;
+
+}
+#navbar ul li a
+{
+    display: block;
+    padding: 0px 50px ;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(78, 5, 5);
+}
+#navbar ul li a:hover
+{
+    background-color:  rgb(78, 5, 5);;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+/*Home Section*/
+#home
+{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    color: #004d00;
+    height: 470px;
+}
+#home::before
+{
+    content: "";
+    background: url('img/pizza.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: .6;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+label
+{
+    font-size: 1.4rem;
+}
+input
+{
+    width: 200px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: rgb(78, 5, 5);
+}
+select
+{
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: rgb(78, 5, 5);
+}
+.opt1
+{
+    width: 185px;
+    height: 30px;
+}
+#btn1
+{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 1.15rem;
+    color: #004d00;
+}
+#btn1:hover
+{
+    background-color: #004d00;
+    color: rgb(78, 5, 5);
+    border: 2px solid #004d00;
+}
+/*Services Section*/
+#services
+{
+    display: flex;
+}
+#services .box
+{
+    border: 2px solid maroon;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: mintcream;
+}
+#services .box img
+{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+/*Client Section*/
+.client-services::before
+{
+    content: "";
+    position: absolute;
+    background: url(img/bg.jpg);
+    width: 100%;
+    height: 37%;
+    z-index: -1;
+    opacity: .5;
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-items
+{
+    padding: 34px;
+}
+#clients .client-items img
+{
+    width: 134px;
+}
+#clogo2
+{
+    margin-bottom: 10px;
+}
+/*Utility Services*/
+.h-primary
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.center
+{
+    text-align: center;
+}
